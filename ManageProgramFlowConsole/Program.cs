@@ -8,6 +8,8 @@ namespace ManageProgramFlowConsole
 {
     class Program
     {
+        static 
+
         static void Main(string[] args)
         {
         }
