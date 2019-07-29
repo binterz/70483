@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter1", "Chapter1", "{60
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_1-ParallelInvoke", "1_1-ParallelInvoke\1_1-ParallelInvoke.csproj", "{4D989B03-A1CA-4EE5-A5C0-C113EFCFC571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_1-ParallelForEach", "1_1-ParallelForEach\1_1-ParallelForEach.csproj", "{6D8CC43C-A2C2-4B06-ADED-1C20CD32BFBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_2-ParallelForEach", "1_1-ParallelForEach\1_2-ParallelForEach.csproj", "{6D8CC43C-A2C2-4B06-ADED-1C20CD32BFBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_1-ParallelFor", "1_1-ParallelFor\1_1-ParallelFor.csproj", "{31425CF4-6BCD-40BE-8047-A445D6F9FAC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_3-ParallelFor", "1_1-ParallelFor\1_3-ParallelFor.csproj", "{31425CF4-6BCD-40BE-8047-A445D6F9FAC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_4-ParallelForManaging", "1_1-ParallelForManaging\1_4-ParallelForManaging.csproj", "{152420D6-AEEC-4C46-98DD-6AC686177B89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{31425CF4-6BCD-40BE-8047-A445D6F9FAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31425CF4-6BCD-40BE-8047-A445D6F9FAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31425CF4-6BCD-40BE-8047-A445D6F9FAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152420D6-AEEC-4C46-98DD-6AC686177B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152420D6-AEEC-4C46-98DD-6AC686177B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152420D6-AEEC-4C46-98DD-6AC686177B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152420D6-AEEC-4C46-98DD-6AC686177B89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{4D989B03-A1CA-4EE5-A5C0-C113EFCFC571} = {60F410AA-8108-4780-945E-4DFB2B94941F}
 		{6D8CC43C-A2C2-4B06-ADED-1C20CD32BFBA} = {60F410AA-8108-4780-945E-4DFB2B94941F}
 		{31425CF4-6BCD-40BE-8047-A445D6F9FAC2} = {60F410AA-8108-4780-945E-4DFB2B94941F}
+		{152420D6-AEEC-4C46-98DD-6AC686177B89} = {60F410AA-8108-4780-945E-4DFB2B94941F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4C86B13-9F07-449B-9DD6-C722C4407005}

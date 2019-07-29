@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _1_3_ParallelFor
+namespace _1_4_ParallelForManaging
 {
     class Program
     {
@@ -20,12 +20,16 @@ namespace _1_3_ParallelFor
         {
             var items = Enumerable.Range(0, 500).ToArray();
 
-            Parallel.For(0, items.Length, i =>
+            ParallelLoopResult result = Parallel.For(0, items.Count(), (int i, ParallelLoopState loopState) =>
             {
+                if (i == 200)
+                    loopState.Stop();
                 WorkOnItem(items[i]);
             });
 
-            Console.WriteLine("Finished working on all items.");
+            Console.WriteLine("Completed: " + result.IsCompleted);
+            Console.WriteLine("Items: " + result.LowestBreakIteration);
+            Console.WriteLine("Finished processing.");
             Console.ReadKey();
         }
     }

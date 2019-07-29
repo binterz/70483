@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _1_1_ParallelForEach
+namespace _1_2_ParallelForEach
 {
     class Program
     {
