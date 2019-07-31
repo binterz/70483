@@ -23,7 +23,7 @@ namespace _1_4_ParallelForManaging
             ParallelLoopResult result = Parallel.For(0, items.Count(), (int i, ParallelLoopState loopState) =>
             {
                 if (i == 200)
-                    loopState.Stop();
+                    loopState.Break();
                 WorkOnItem(items[i]);
             });
 
